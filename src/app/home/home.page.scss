@@ -1,4 +1,28 @@
+ion-toolbar{
+  --background: #00FF7F;
+  --color:white;
+}
+
+
 ion-item-sliding{
 
   border-bottom : 1px solid black;
+}
+
+ion-title{
+
+  text-align: center;
+  font-family:'Times New Roman', Times, serif;
+  font-size: x-large;
+}
+
+ion-content{
+  //--background: rgb(209, 194, 194);
+  #imagem{
+      width:80%;
+      height: 40%;
+      margin-left: 10%;
+      margin-top:35%;
+      
+  }
 }

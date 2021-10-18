@@ -1,11 +1,11 @@
 <ion-header>
-  <ion-toolbar color="primary">
-    <ion-title>login</ion-title>
+  <ion-toolbar>
+    <ion-title>Login</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-
+<div id="corpo">
 <ion-item>
   <ion-label position="floating">E-mail</ion-label>
   <ion-input type="email" [(ngModel)]="user.email" required></ion-input>
@@ -18,5 +18,8 @@
 </ion-item>
 
 <ion-button class="ion-padding" color="primary" expand="full" (click)="login(user)">Login</ion-button>
-<ion-button class="ion-padding" color="light" expand="full"[routerLink]="['/cadastro']">Registro</ion-button>
+<ion-button class="ion-padding" color="success" expand="full"[routerLink]="['/cadastro']">Registro</ion-button>
+
+<img id="imagem"src="assets/img/login.jpg"/>
+</div>
 </ion-content>

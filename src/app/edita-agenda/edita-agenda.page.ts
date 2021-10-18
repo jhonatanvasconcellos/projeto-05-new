@@ -19,7 +19,7 @@ export class EditaAgendaPage implements OnInit {
     private toastCtrl: ToastController,
     private navCtrl: NavController) {
     this.id = this.actRoute.snapshot.paramMap.get("id");
-    console.log("ERROR",this.id);
+    //console.log("ERROR",this.id);
   }
 
   ngOnInit() {

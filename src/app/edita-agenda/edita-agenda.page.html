@@ -1,5 +1,5 @@
 <ion-header>
-  <ion-toolbar color="primary">
+  <ion-toolbar>
     <ion-title>Editar Posts</ion-title>
   </ion-toolbar>
 </ion-header>
@@ -17,5 +17,8 @@
     <ion-textarea [(ngModel)]="post.details" required></ion-textarea>
   </ion-item>
 
-  <ion-button class="ion-padding" color="primary" expand="full" (click)="updatePost(post)">Editar</ion-button>
-  </ion-content>
+  <ion-button class="ion-padding" color="success" expand="full" (click)="updatePost(post)">Editar</ion-button>
+  
+  <img id="imagem"src="assets/img/login.jpg"/>
+
+</ion-content>
